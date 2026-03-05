@@ -3,7 +3,7 @@ import path from 'path';
 
 const REPO_URL = "https://raw.githubusercontent.com/KYC-rip/xmr402-ecosystem/main";
 const PROJECTS_DIR = path.join(process.cwd(), 'data/projects');
-const OUTPUT_FILE = path.join(process.cwd(), 'ecosystem.json');
+const OUTPUT_FILE = path.join(process.cwd(), 'public/ecosystem.json');
 
 const build = () => {
   const categories = [
@@ -26,7 +26,7 @@ const build = () => {
 
     if (!logoFile) {
       const files = fs.readdirSync(path.join(PROJECTS_DIR, id));
-      logoFile = files.find(file => file.startsWith('logo.') && /\.(png|jpe?g|svg|webp)$/i.test(file));
+      logoFile = files.find((file: string) => file.startsWith('logo.') && /\.(png|jpe?g|svg|webp)$/i.test(file));
     }
 
     if (logoFile) {
@@ -43,7 +43,7 @@ const build = () => {
     projects
   };
 
-  if (!fs.existsSync(path.dirname(OUTPUT_FILE))) fs.mkdirSync(path.dirname(OUTPUT_FILE));
+  if (!fs.existsSync(path.dirname(OUTPUT_FILE))) fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
   console.log(`✅ Success: ${projects.length} projects indexed.`);
 };
