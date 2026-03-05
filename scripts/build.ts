@@ -39,7 +39,7 @@ const build = () => {
 
   const output = {
     categories,
-    featured_ids: ["ripley", "molt-production"],
+    featured_ids: ["ripley-terminal", "molt-production"],
     projects
   };
 

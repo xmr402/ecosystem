@@ -4,6 +4,7 @@
   "category": "guards",
   "tagline": "Industrial-grade Monero payment gating for modern APIs. IETF-compliant, 0-conf enabled, and built for the sovereign internet.",
   "status": "Production",
+  "url": "https://kyc.rip/guard",
   "github": "https://github.com/KYC-rip/ripley-guard-ts",
-  "author": "KYC.rip"
+  "author": "@kyc_rip"
 }
