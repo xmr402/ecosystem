@@ -1,0 +1,10 @@
+{
+  "id": "ripley-terminal",
+  "name": "Ripley Terminal",
+  "category": "wallets",
+  "tagline": "The first self-custodial Monero vault with a native AI Agent Gateway. Built-in Tor routing, cross-chain Ghost Sends, and secure RPC uplink for autonomous financial agency with zero footprint.",
+  "status": "Mainnet Live",
+  "url": "https://kyc.rip/wallet",
+  "github": "https://github.com/KYC-rip/ripley-terminal",
+  "author": "KYC.rip"
+}
