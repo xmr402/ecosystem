@@ -44,6 +44,7 @@ const build = () => {
   };
 
   if (!fs.existsSync(path.dirname(OUTPUT_FILE))) fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+  fs.writeFileSync(path.join(path.dirname(OUTPUT_FILE), '.nojekyll'), '');
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
   console.log(`✅ Success: ${projects.length} projects indexed.`);
 };
