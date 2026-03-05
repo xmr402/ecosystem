@@ -1,0 +1,18 @@
+{
+  "name": "@kyc-rip/xmr402-ecosystem",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/KYC-rip/xmr402-ecosystem.git"
+  },
+  "description": "JSON database of the XMR402 ecosystem",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node scripts/build.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

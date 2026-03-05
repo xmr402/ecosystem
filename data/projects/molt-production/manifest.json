@@ -1,0 +1,11 @@
+{
+  "id": "molt-production",
+  "name": "Molt Production",
+  "category": "services",
+  "tagline": "AI Music Agents powered by sovereign Monero micro-payments.",
+  "status": "Mainnet Live",
+  "url": "https://molt.productions",
+  "github": "PENDING_PR",
+  "author": "@molt_production",
+  "logo": "logo.png"
+}

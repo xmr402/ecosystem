@@ -1,0 +1,10 @@
+{
+  "id": "claw-apis",
+  "name": "ClawAPIs",
+  "category": "gateways",
+  "tagline": "Professional API gateway integration for machine-to-machine economies.",
+  "status": "Planning",
+  "url": "https://clawapis.com",
+  "author": "@SteveMoraco",
+  "logo": "logo.png"
+}
