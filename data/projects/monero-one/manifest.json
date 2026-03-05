@@ -1,0 +1,10 @@
+{
+  "id": "monero-one",
+  "name": "MoneroOne",
+  "category": "wallets",
+  "tagline": "The most elegant Monero wallet for iOS. Send, receive, and store XMR with complete privacy.",
+  "status": "Production",
+  "url": "https://monero.one/",
+  "github": "https://github.com/bwgh0/MoneroOne-public",
+  "author": "@bwgh0"
+}
