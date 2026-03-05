@@ -25,7 +25,7 @@ Ensure your entry follows this format:
   "name": "Project Name",
   "category": "guards | gateways | agent-skills | services | wallets | tools | misc",
   "tagline": "A short, punchy sentence about what it does.",
-  "status": "Mainnet Live | Alpha | Planning",
+  "status": "Production | Alpha | Planning",
   "url": "https://your-project-link.com",
   "github": "https://github.com/your/repo",
   "author": "@YourTwitterHandle",

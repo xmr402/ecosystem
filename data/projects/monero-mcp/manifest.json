@@ -3,7 +3,7 @@
   "name": "Monero-MCP",
   "category": "agent-skills",
   "tagline": "World's first MCP server for Monero with prompt-injection defense.",
-  "status": "Alpha",
+  "status": "Planning",
   "github": "https://github.com/baltsar/monero-mcp",
   "author": "@gustafgarnow"
 }
