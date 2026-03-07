@@ -1,8 +1,8 @@
 {
-  "name": "@kyc-rip/xmr402-ecosystem",
+  "name": "@xmr402/ecosystem",
   "version": "1.0.0",
   "repository": {
-    "url": "https://github.com/KYC-rip/xmr402-ecosystem.git"
+    "url": "https://github.com/xmr402/ecosystem.git"
   },
   "description": "JSON database of the XMR402 ecosystem",
   "main": "index.js",

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const REPO_URL = "https://raw.githubusercontent.com/KYC-rip/xmr402-ecosystem/main";
+const REPO_URL = "https://raw.githubusercontent.com/xmr402/ecosystem/main";
 const PROJECTS_DIR = path.join(process.cwd(), 'data/projects');
 const OUTPUT_FILE = path.join(process.cwd(), 'public/ecosystem.json');
 
