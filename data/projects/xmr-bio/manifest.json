@@ -1,0 +1,10 @@
+{
+  "id": "xmr-bio",
+  "name": "xmr.bio",
+  "category": "services",
+  "tagline": "The address book for the Monero machine economy: verified @handle → XMR address, signed.",
+  "status": "Production",
+  "url": "https://xmr.bio",
+  "github": "https://github.com/KYC-rip/xmr-bio-sdk",
+  "author": "@XBToshi"
+}
